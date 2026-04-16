@@ -62,5 +62,6 @@
         android:inputType="textPersonName"
         android:text="Hello World "
         android:textColor="#A31212" />
+    <!--curl https://api.github.com/repos/devKiNGCRiC/android/contents/xml   -->
 
 </RelativeLayout>
