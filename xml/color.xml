@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose a Color"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:id="@+id/tvTitle" />
+
+    <Button
+        android:id="@+id/btnRed"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Red"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp" />
+
+    <Button
+        android:id="@+id/btnGreen"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Green"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btnRed"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnBlue"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Blue"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btnGreen"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnYellow"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Yellow"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btnBlue"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnWhite"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="White"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btnYellow"
+        android:layout_marginTop="16dp" />
+
+</RelativeLayout>
